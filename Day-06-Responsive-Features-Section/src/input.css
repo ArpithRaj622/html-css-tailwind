@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: 'Poppins', sans-serif;
+}
+
+.features-heading {
+    @apply text-3xl text-slate-700 font-bold py-2;
+}
+
+.features-container {
+    @apply p-6 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start w-full max-w-6xl mx-auto;
+}
+
+.feature-card {
+    @apply p-5 w-full mx-auto flex items-center gap-12 bg-white rounded-2xl shadow-2xl hover:scale-105 transition-all duration-200 ease-in-out h-40;
+}
+.card-icon {
+    @apply text-4xl bg-cyan-50 text-cyan-700 p-2 border rounded-full;
+}
+
+.card-text-content {
+    @apply flex flex-col gap-3;
+}
+
+.card-title {
+    @apply text-xl font-bold;
+}
+
+.card-desc {
+    @apply text-sm;
+}
