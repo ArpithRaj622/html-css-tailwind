@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Poppins", sans-serif;
+}
+
+.page-heading {
+    @apply text-center p-4 my-5;
+}
+
+.page-title {
+    @apply text-4xl text-cyan-600 font-bold;
+}
+
+.page-subtitle {
+    @apply text-slate-600 font-bold;
+}
+
+.contact-section {
+    @apply flex flex-col p-5 md:p-10 w-full max-w-6xl mx-auto lg:flex-row md:text-lg lg:justify-center lg:text-2xl;
+}
+
+.contact-info {
+    @apply px-4 py-8 flex flex-col gap-4 rounded-2xl rounded-b-none bg-slate-700 text-white shadow-2xl lg:rounded-none lg:rounded-l-2xl lg:justify-center lg:gap-12;
+}
+
+.contact-info-items {
+    @apply flex items-center gap-4;
+}
+
+.contact-form {
+    @apply px-4 py-8 rounded-2xl rounded-t-none bg-white shadow-2xl lg:w-[50%] lg:rounded-none lg:rounded-r-2xl;
+}
+
+.contact-form label{
+    @apply text-slate-700 font-bold;
+}
+
+.contact-form input {
+    @apply bg-slate-100 p-2 mb-3 focus:outline-none rounded-lg;
+}
+
+.contact-form textarea {
+    @apply bg-slate-100 p-3 rounded-lg h-40;
+}
+
+.submit-btn {
+    @apply  w-[90%] mt-8 p-2 bg-cyan-600 text-white rounded-lg hover:scale-105 transition-all duration-300 ease-in-out self-center cursor-pointer;
+}
