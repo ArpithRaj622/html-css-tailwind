@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Roboto", sans-serif;
+}
+
+.footer-container {
+    @apply flex flex-col items-center gap-8 py-3 lg:flex-row lg:justify-between;
+}
+
+.logo-desc-container {
+    @apply flex flex-col items-center gap-2 lg:w-[30%];
+}
+
+.logo {
+    @apply text-2xl font-bold;
+}
+
+.description {
+    @apply text-center text-sm md:text-base w-[90%] lg:max-w-64;
+}
+
+.links {
+    @apply flex gap-5 md:text-xl p-4 lg:gap-10;
+}
+
+.contact {
+    @apply flex flex-col gap-4 p-2 md:text-xl items-center lg:items-center lg:w-[30%];
+}
+
+.social-icons {
+    @apply text-2xl p-2 flex justify-center gap-8;
+}
+
+.copyright {
+    @apply p-1 text-center;
+}
+
+.icon-hover {
+    @apply cursor-pointer hover:scale-105;
+}
