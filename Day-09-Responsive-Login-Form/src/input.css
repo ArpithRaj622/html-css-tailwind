@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Poppins", sans-serif;
+}
+
+body {
+    @apply bg-slate-100 min-h-screen text-sm flex flex-col justify-center;
+}
+
+.login-section {
+    @apply text-slate-600;
+}
+
+.login-heading {
+    @apply text-center mb-2;
+}
+
+.login-form {
+    @apply flex flex-col gap-4 w-[90%] md:w-md mx-auto p-5 bg-white shadow-2xl rounded-2xl;
+}
+
+.form-input {
+    @apply flex flex-col gap-4 mb-5;
+}
+
+.form-input > div > label {
+    @apply font-bold;
+}
+
+.form-input > div > input {
+    @apply w-full p-2 bg-slate-100 rounded-lg focus:outline-none;
+}
+
+.options {
+    @apply flex justify-between my-6;
+}
+
+.login-btn {
+    @apply w-full p-1 bg-blue-700 text-white text-xl rounded-lg cursor-pointer hover:-translate-y-1 transition-all duration-300 ease-in-out;
+}
+
+.social-icons {
+    @apply flex justify-center gap-8 text-2xl;
+}

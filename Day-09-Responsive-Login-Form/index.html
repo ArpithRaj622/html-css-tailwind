@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Responsive Login Form</title>
+</head>
+<body>
+    <section class="login-section">
+        <!-- page heading -->
+        <div class="login-heading">
+            <h2 class="text-3xl text-blue-700 font-bold md:text-4xl">Welcome Back</h2>
+            <p class="text-slate-500">Sign in to continue to your account.</p>
+        </div>
+
+        <!-- form -->
+        <form class="login-form">
+            <div>
+                <!-- input -->
+                <div class="form-input">
+                    <div>
+                        <label for=""><i class="fa-solid fa-envelope text-blue-600"></i> Email:</label>
+                        <br>
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <label for=""><i class="fa-solid fa-lock text-blue-600"></i> Password:</label>
+                        <br>
+                        <input type="text" placeholder="Enter your password">
+                    </div>
+                </div>
+                
+                <!-- options row -->
+                <div class="options">
+                    <div>
+                        <input type="checkbox"> <label for="">Remember me</label>
+                    </div>
+                    <a href="#" class="text-blue-600">Forgot password?</a>
+                </div>
+
+                <!-- button -->
+                <div>
+                    <button class="login-btn">Sign In</button>
+                </div>
+            </div>
+
+            <!-- divider -->
+            <div class="text-center text-slate-400 text-sm">──────── OR ────────</div>
+
+            <div class="text-center">
+                <p>Continue with:</p>
+            </div>
+            <!-- social buttons -->
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <!-- create new account  -->
+            <div class="text-center">
+                <p class="text-slate-400">Don't have an account?</p>
+                <a href="#" class="text-blue-600">Create Account</a>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
