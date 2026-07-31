@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Responsive Dashboard UI</title>
+</head>
+<body class="bg-slate-100">
+    <!-- navbar -->
+    <header>
+        <nav id="navbar">
+            <div class="logo_ham-menu">
+                <i class="fa-solid fa-bars"></i>
+                <div class="cursor-pointer">Logo</div>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div class="notify_user-profile">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="flex">
+        <!-- side navbar -->
+        <aside>
+            <nav id="side-navbar">
+                <ul class="side-nav-list">
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-rectangle-list"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-address-card"></i>
+                            <p>Users</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-chart-bar"></i>
+                            <p>Analytics</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-clipboard"></i>
+                            <p>Orders</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            <p>Settings</p>
+                        </a>
+                    </li>
+                    <li>
+                        <button class="logout-btn">
+                            <i class="fa-solid fa-power-off"></i><p class="hidden lg:block ">Logout</p>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="flex-1">
+
+            <!-- statistics cards -->
+            <h2 class="dashboard-section-heading">Statistics</h2>
+            <div class="stats-cards-container">
+                <!-- stats card 1 - total users -->
+                <div class="stats-card">
+                    <div class="stats-card-top">
+                        <i class="fa-solid fa-users text-blue-800"></i>
+                        <p>+12%</p>
+                    </div>
+                    <div class="stats-card-bottom">
+                        <p>Total Users - 1,254</p>
+                        <p>Compared to last month</p>
+                    </div>
+                </div>
+
+                <!-- stats card 2 - revenue -->
+                <div class="stats-card">
+                    <div class="stats-card-top">
+                        <i class="fa-solid fa-indian-rupee-sign text-green-700"></i>
+                        <p>+8%</p>
+                    </div>
+                    <div class="stats-card-bottom">
+                        <p>Revenue - ₹2.4L</p>
+                        <p>This month</p>
+                    </div>
+                </div>
+
+                <!-- stats card 3 - orders-->
+                <div class="stats-card">
+                    <div class="stats-card-top">
+                        <i class="fa-regular fa-clipboard text-purple-800"></i>
+                        <p>+18%</p>
+                    </div>
+
+                    <div class="stats-card-bottom">
+                        <p>Orders - 328</p>
+                        <p>This week</p>
+                    </div>
+                </div>
+
+                <!-- stats card 4 - visitors -->
+                <div class="stats-card">
+                    <div class="stats-card-top">
+                        <i class="fa-solid fa-eye text-orange-600"></i>
+                        <p>-3%</p>
+                    </div>
+
+                    <div class="stats-card-bottom">
+                        <p>Visitors -  18.6K</p>
+                        <p>Today</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- recent activity -->
+            <h2 class="dashboard-section-heading">Recent Activity</h2>
+            <div class="recent-activity">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-user-plus"></i>
+                        <p>New user registered</p>
+                        <p>2 min ago</p> 
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-credit-card"></i>
+                        <p>payment received</p>
+                        <p>10 min ago</p> 
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-clipboard"></i>
+                        <p>New order placed</p>
+                        <p>25 min ago</p> 
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-pen"></i>
+                        <p>Product updated</p>
+                        <p>1 hr ago</p> 
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-gear"></i>
+                        <p>Settings changed</p>
+                        <p>Yesterday</p> 
+                    </li>
+                </ul>
+            </div>
+
+            <!-- User Table -->
+            <h2 class="dashboard-section-heading">User Table</h2>
+            <div class="user-table">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>Sarah Johnson</td>
+                        <td>Frontend Dev</td>
+                        <td class="text-green-700">Active</td>
+                        <td>View</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Chen</td>
+                        <td>UI/UX Designer</td>
+                        <td class="text-green-700">Active</td>
+                        <td>View</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>Full Stack Eng.</td>
+                        <td class="text-red-600">Offline</td>
+                        <td>View</td>
+                    </tr>
+                    <tr>
+                        <td>David</td>
+                        <td>Backend Dev</td>
+                        <td class="text-green-700">Active</td>
+                        <td>View</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>Product Manager</td>
+                        <td class="text-yellow-500">Away</td>
+                        <td>View</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="text-center p-3">
+                <a href="#">View all</a>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
