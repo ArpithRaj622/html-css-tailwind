@@ -13,7 +13,8 @@
     "day7": "npx @tailwindcss/cli -i ./Day-07-Responsive-Contact-Section/src/input.css -o ./Day-07-Responsive-Contact-Section/src/output.css --watch",
     "day8": "npx @tailwindcss/cli -i ./Day-08-Responsive-Footer-Section/src/input.css -o ./Day-08-Responsive-Footer-Section/src/output.css --watch",
     "day9": "npx @tailwindcss/cli -i ./Day-09-Responsive-Login-Form/src/input.css -o ./Day-09-Responsive-Login-Form/src/output.css --watch",
-    "day10": "npx @tailwindcss/cli -i ./Day-10-Responsive-Dashboard-UI/src/input.css -o ./Day-10-Responsive-Dashboard-UI/src/output.css --watch"
+    "day10": "npx @tailwindcss/cli -i ./Day-10-Responsive-Dashboard-UI/src/input.css -o ./Day-10-Responsive-Dashboard-UI/src/output.css --watch",
+    "day11": "npx @tailwindcss/cli -i ./Day-11-Responsive-FAQ-Section/src/input.css -o ./Day-11-Responsive-FAQ-Section/src/output.css --watch"
   },
   "repository": {
     "type": "git",
