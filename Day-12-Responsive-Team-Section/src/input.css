@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Poppins", sans-serif; 
+}
+
+body {
+    @apply bg-slate-800 text-sm text-white;
+}
+
+.page-heading {
+    @apply text-center my-5;
+}
+
+.page-heading h2 {
+    @apply text-3xl lg:text-4xl font-bold text-violet-400;
+}
+
+#ourTeam {
+    @apply w-[90%] mx-auto max-w-5xl;
+}
+
+.card-container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8 py-4 mb-5;
+}
+
+.card {
+    @apply flex flex-col gap-4 items-center py-4 rounded-2xl shadow-2xl text-white bg-slate-600 hover:-translate-y-1 hover:shadow-md hover:shadow-amber-400 transition-all duration-300 ease-in-out;
+}
+
+.name-role-bio {
+    @apply w-[80%] text-center text-xs;
+}
+
+.name {
+    @apply text-2xl font-bold text-amber-300;
+}
+
+.role {
+    @apply text-base font-bold text-violet-400;
+}
+
+.skills {
+    @apply flex gap-4 p-1 text-2xl;
+}
+
+.social-icons {
+    @apply flex gap-5 p-1 text-lg;
+}
+
+.social-icons i {
+    @apply hover:scale-105 cursor-pointer;
+}
