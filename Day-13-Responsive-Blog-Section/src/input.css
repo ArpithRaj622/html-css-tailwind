@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans : "Poppins", sans-serif;
+}
+
+body {
+    @apply bg-slate-100 text-slate-600 text-xs md:text-sm;
+}
+
+header {
+    @apply text-center p-4;
+}
+
+.heading {
+    @apply text-2xl md:text-3xl font-bold text-amber-500;
+}
+
+#blogSection {
+    @apply w-[90%] max-w-6xl mx-auto;
+}
+
+.blog-card-container {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 p-4 md:p-8;
+}
+
+.blog-card {
+    @apply bg-white h-full p-4 flex flex-col gap-4 rounded-2xl shadow-2xl hover:-translate-y-2 transition-all duration-300 ease-in-out;
+}
+
+.blog-card-img {
+    @apply rounded-lg w-full h-52 object-cover;
+}
+
+.card-category-date {
+    @apply flex justify-between text-slate-400;
+}
+
+.category {
+    @apply text-white py-1 px-2 rounded-full font-semibold;
+}
+
+.card-title-desc {
+    @apply flex flex-col gap-1;
+}
+
+.card-title {
+    @apply font-bold text-amber-500;
+}
+
+.card-desc {
+    @apply text-xs;
+}
+
+.author-readTime {
+    @apply flex justify-between items-center;
+}
+
+.author {
+    @apply font-bold text-slate-800 flex gap-2 items-center;
+}
+
+.author i {
+    @apply text-lg;
+}
+
+.readTime {
+    @apply text-slate-400;
+}
+
+.read-more {
+    @apply text-slate-400 text-center mt-auto underline;
+}
+
+.read-more a {
+    @apply hover:text-blue-600;
+}

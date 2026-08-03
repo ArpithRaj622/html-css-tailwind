@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Responsive Blog Section</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h2 class="heading">Latest Articles</h2>
+            <p class="subtitle">Insights, tutorials, and practical tips to help you become a better web developer.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="blogSection">
+            <div class="blog-card-container">
+                <!-- card 1 -->
+                <div class="blog-card">
+                    
+                    <!-- image -->
+                    <div>
+                        <img src="./images/tailwindcss.png" alt="tailwind css image" class="blog-card-img">
+                    </div>
+
+                    <!-- category & date -->
+                    <div class="card-category-date">
+                        <p class="category bg-blue-600">Tailwind CSS</p>
+                        <p>August 3, 2026</p>
+                    </div>
+
+                    <!-- blog title & description -->
+                    <div class="card-title-desc">
+                        <p class="card-title">10 Tailwind CSS Tips Every Developer Should Know</p>
+                        <p class="card-desc">Discover practical Tailwind CSS techniques to build responsive, modern, and maintainable user interfaces with cleaner and faster code.</p>
+                    </div>
+
+                    <!-- Author + Reading Time -->
+                    <div class="author-readTime">
+                        <p class="author"><i class="fa-solid fa-user"></i> Sarah Johnson</p>
+                        <p class="readTime">5 min read</p>
+                    </div>
+
+                    <!-- read more link -->
+                    <div class="read-more">
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="blog-card">
+                    
+                    <!-- image -->
+                    <div>
+                        <img src="./images/javascript.png" alt="javascript image" class="blog-card-img">
+                    </div>
+
+                    <!-- category & date -->
+                    <div class="card-category-date">
+                        <p class="category bg-yellow-400">JavaScript</p>
+                        <p>July 28, 2026</p>
+                    </div>
+
+                    <!-- blog title & description -->
+                    <div class="card-title-desc">
+                        <p class="card-title">7 JavaScript Concepts Every Beginner Must Master</p>
+                        <p class="card-desc">Learn the essential JavaScript concepts including variables, functions, arrays, objects, and ES6 features with practical examples.</p>
+                    </div>
+
+                    <!-- Author + Reading Time -->
+                    <div class="author-readTime">
+                        <p class="author"><i class="fa-solid fa-user"></i> Michael Chen</p>
+                        <p class="readTime">7 min read</p>
+                    </div>
+
+                    <!-- read more link -->
+                    <div class="read-more">
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="blog-card">
+                    
+                    <!-- image -->
+                    <div>
+                        <img src="./images/react.png" alt="reactjs image" class="blog-card-img">
+                    </div>
+
+                    <!-- category & date -->
+                    <div class="card-category-date">
+                        <p class="category bg-blue-600">React</p>
+                        <p>July 21, 2026</p>
+                    </div>
+
+                    <!-- blog title & description -->
+                    <div class="card-title-desc">
+                        <p class="card-title">Build Dynamic User Interfaces with React Components</p>
+                        <p class="card-desc">Explore reusable components, props, state, and hooks to create fast, interactive, and scalable React applications.</p>
+                    </div>
+
+                    <!-- Author + Reading Time -->
+                    <div class="author-readTime">
+                        <p class="author"><i class="fa-solid fa-user"></i> Emily Rodriguez</p>
+                        <p class="readTime">8 min read</p>
+                    </div>
+
+                    <!-- read more link -->
+                    <div class="read-more">
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- card 4 -->
+                <div class="blog-card">
+                    
+                    <!-- image -->
+                    <div>
+                        <img src="./images/nodejs.png" alt="node.js image" class="blog-card-img">
+                    </div>
+
+                    <!-- category & date -->
+                    <div class="card-category-date">
+                        <p class="category bg-green-700">Node.js</p>
+                        <p>July 15, 2026</p>
+                    </div>
+
+                    <!-- blog title & description -->
+                    <div class="card-title-desc">
+                        <p class="card-title">Getting Started with Node.js and Express</p>
+                        <p class="card-desc">Learn how to build REST APIs using Node.js and Express while understanding routing, middleware, and server fundamentals.</p>
+                    </div>
+
+                    <!-- Author + Reading Time -->
+                    <div class="author-readTime">
+                        <p class="author"><i class="fa-solid fa-user"></i> David Wilson</p>
+                        <p class="readTime">10 min read</p>
+                    </div>
+
+                    <!-- read more link -->
+                    <div class="read-more">
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- card 5 -->
+                <div class="blog-card">
+                    
+                    <!-- image -->
+                    <div>
+                        <img src="./images/mongodb.png" alt="mongodb image" class="blog-card-img">
+                    </div>
+
+                    <!-- category & date -->
+                    <div class="card-category-date">
+                        <p class="category bg-green-700">MongoDB</p>
+                        <p>July 8, 2026</p>
+                    </div>
+
+                    <!-- blog title & description -->
+                    <div class="card-title-desc">
+                        <p class="card-title">MongoDB Basics for Full Stack Developers</p>
+                        <p class="card-desc">Understand collections, documents, CRUD operations, and database design to build scalable MERN applications.</p>
+                    </div>
+
+                    <!-- Author + Reading Time -->
+                    <div class="author-readTime">
+                        <p class="author"><i class="fa-solid fa-user"></i> Sophia Brown</p>
+                        <p class="readTime">6 min read</p>
+                    </div>
+
+                    <!-- read more link -->
+                    <div class="read-more">
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- card 6 -->
+                <div class="blog-card">
+                    
+                    <!-- image -->
+                    <div>
+                        <img src="./images/mernstackcareer.png" alt="about career image" class="blog-card-img">
+                    </div>
+
+                    <!-- category & date -->
+                    <div class="card-category-date">
+                        <p class="category bg-amber-500">Career</p>
+                        <p>June 30, 2026</p>
+                    </div>
+
+                    <!-- blog title & description -->
+                    <div class="card-title-desc">
+                        <p class="card-title">How to Build a Strong Web Developer Portfolio</p>
+                        <p class="card-desc">Discover practical tips for creating portfolio projects, showcasing your skills, and standing out to recruiters.</p>
+                    </div>
+
+                    <!-- Author + Reading Time -->
+                    <div class="author-readTime">
+                        <p class="author"><i class="fa-solid fa-user"></i> Arpith Raj</p>
+                        <p class="readTime">9 min read</p>
+                    </div>
+
+                    <!-- read more link -->
+                    <div class="read-more">
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
