@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Poppins", sans-serif;
+}
+
+body {
+    @apply bg-slate-100 text-sm md:text-base;
+}
+
+header {
+    @apply p-2 text-center bg-slate-700 text-white shadow-2xl;
+}
+
+h1 {
+    @apply text-2xl font-bold;
+}
+
+.product-container {
+    @apply w-[90%] max-w-7xl mx-auto my-5 p-4 bg-white shadow-2xl rounded-2xl;
+}
+
+.product-image-details {
+    @apply flex flex-col gap-4 p-2 mb-12 md:flex-row lg:gap-10;
+}
+
+.image-thumbnails {
+    @apply flex flex-col gap-4 lg:w-md;
+}
+
+.image img {
+    @apply w-full rounded-xl object-cover;
+}
+
+.thumbnails {
+    @apply flex gap-2 justify-center p-2;
+}
+
+.thumbnails span img {
+    @apply w-20 h-14 object-cover hover:scale-105 transition-all duration-200 ease-in-out;
+}
+
+.details {
+    @apply flex flex-col gap-2 lg:justify-around;
+}
+
+.product-name {
+    @apply font-bold text-base lg:text-xl;
+}
+
+.btn-container {
+    @apply flex flex-col gap-2 md:flex-row;
+}
+
+.btn {
+    @apply p-2 text-white font-bold rounded-md md:w-[50%] cursor-pointer hover:-translate-y-2 transition-all duration-300 ease-in-out;
+}
+
+h3 {
+    @apply text-center my-2 text-lg font-bold;
+}
+
+.product-features {
+    @apply my-5;
+}
+
+.product-specifications {
+    @apply my-5;
+}
+
+.product-reviews {
+    @apply my-5 flex flex-col gap-3 lg:flex-row lg:gap-8;
+}
+
+.review-card {
+    @apply bg-slate-50 p-4 rounded-xl shadow-xl w-full;
+}
