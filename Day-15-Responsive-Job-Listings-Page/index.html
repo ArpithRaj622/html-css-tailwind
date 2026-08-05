@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive-Job-Listing-Page</title>
+</head>
+<body>
+    <header>
+        <!-- heading -->
+        <div class="page-heading">
+            <h2>Tech Careers</h2>
+            <p>Find Your Dream Tech Job</p>
+        </div>
+
+        <!-- search & select location -->
+        <div class="bg-slate-100">
+            <div class="search-section">
+                <div class="input-section">
+                    <input type="text" placeholder="Search Jobs...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="filter-section">
+                    <span>On-site</span>
+                    <span>Remote</span>
+                    <span>Hybrid</span>
+                </div>
+
+                <select name="location" id="location">
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                </select>
+            </div> 
+        </div>
+        
+    </header>
+
+    <!-- job filter -->
+    <div class="filter-section-mobile">
+        <span>On-site</span>
+        <span>Remote</span>
+        <span>Hybrid</span>
+    </div>
+
+    <main>
+        <section class="jobs">
+            <div class="job-card-container">
+                <!-- card 1 -->
+                <div class="job-card">
+                    <p class="company">Google</p>
+                    <p class="role">Frontend Developer</p>
+
+                    <!-- details -->
+                    <div class="job-details">
+                        <ul class="job-details-list">
+                            <li>Salary : ₹18-24 LPA</li>
+                            <li>Location : Bangalore, India</li>
+                            <li>Experience : 2+ Years</li>
+                            <li>Job : Full Time (On-Site)</li>
+                        </ul>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="skills">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>Tailwind CSS</span>
+                        <span>TypeScript</span>
+                    </div>
+
+                    <!-- description -->
+                    <div class="job-description">
+                        <p>Description:</p>
+                        <p>Build modern and responsive user interfaces for millions of users worldwide.</p>
+                    </div>
+
+                    <!-- apply button -->
+                    <div class="btn-container">
+                        <button type="button" class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="job-card">
+                    <p class="company">Microsoft</p>
+                    <p class="role">Backend Developer</p>
+
+                    <!-- details -->
+                    <div class="job-details">
+                        <ul class="job-details-list">
+                            <li>Salary : ₹20-28 LPA</li>
+                            <li>Location : Hyderabad, India</li>
+                            <li>Experience : 3+ Years</li>
+                            <li>Job : Full Time (On-Site)</li>
+                        </ul>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="skills">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>REST APIs</span>
+                    </div>
+
+                    <!-- description -->
+                    <div class="job-description">
+                        <p>Description:</p>
+                        <p>Design and build secure backend services, APIs, and cloud-based applications using modern technologies.</p>
+                    </div>
+
+                    <!-- apply button -->
+                    <div class="btn-container">
+                        <button type="button" class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="job-card">
+                    <p class="company">Amazon</p>
+                    <p class="role">Full Stack Developer</p>
+
+                    <!-- details -->
+                    <div class="job-details">
+                        <ul class="job-details-list">
+                            <li>Salary : ₹22-30 LPA</li>
+                            <li>Location : Chennai, India</li>
+                            <li>Experience : 2+ Years</li>
+                            <li>Job : Full Time (Hybrid)</li>
+                        </ul>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="skills">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>AWS</span>
+                    </div>
+
+                    <!-- description -->
+                    <div class="job-description">
+                        <p>Description:</p>
+                        <p>Develop scalable full stack applications with modern frontend frameworks and high-performance backend systems.</p>
+                    </div>
+
+                    <!-- apply button -->
+                    <div class="btn-container">
+                        <button type="button" class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- card 4 -->
+                <div class="job-card">
+                    <p class="company">Adobe</p>
+                    <p class="role">UI/UX Developer</p>
+
+                    <!-- details -->
+                    <div class="job-details">
+                        <ul class="job-details-list">
+                            <li>Salary : ₹16-22 LPA</li>
+                            <li>Location : Bangalore, India</li>
+                            <li>Experience : 1+ Years</li>
+                            <li>Job : Full Time (Remote)</li>
+                        </ul>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="skills">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Tailwind</span>
+                        <span>Figma</span>
+                    </div>
+
+                    <!-- description -->
+                    <div class="job-description">
+                        <p>Description:</p>
+                        <p>Create beautiful, accessible, and user-friendly interfaces while collaborating closely with designers and developers.</p>
+                    </div>
+
+                    <!-- apply button -->
+                    <div class="btn-container">
+                        <button type="button" class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- card 5 -->
+                <div class="job-card">
+                    <p class="company">Infosys</p>
+                    <p class="role">MERN Stack Developer</p>
+
+                    <!-- details -->
+                    <div class="job-details">
+                        <ul class="job-details-list">
+                            <li>Salary : ₹8-12 LPA</li>
+                            <li>Location : Pune, India</li>
+                            <li>Experience : Fresher / 1+ Years</li>
+                            <li>Job : Full Time (On-Site)</li>
+                        </ul>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="skills">
+                        <span>MongoDB</span>
+                        <span>Express</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+
+                    <!-- description -->
+                    <div class="job-description">
+                        <p>Description:</p>
+                        <p>Work on enterprise MERN stack projects, build responsive web applications, and collaborate with cross-functional teams.</p>
+                    </div>
+
+                    <!-- apply button -->
+                    <div class="btn-container">
+                        <button type="button" class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <!-- card 6 -->
+                <div class="job-card">
+                    <p class="company">OpenAI</p>
+                    <p class="role">Frontend Engineer</p>
+
+                    <!-- details -->
+                    <div class="job-details">
+                        <ul class="job-details-list">
+                            <li>Salary : ₹40-60 LPA</li>
+                            <li>Location : Mumbai, India</li>
+                            <li>Experience : 1+ Years</li>
+                            <li>Job : Full Time (Hybrid)</li>
+                        </ul>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="skills">
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+                        <span>Tailwind CSS</span>
+                    </div>
+
+                    <!-- description -->
+                    <div class="job-description">
+                        <p>Description:</p>
+                        <p>Build fast, intuitive frontend experiences for AI-powered products used by millions of users worldwide..</p>
+                    </div>
+
+                    <!-- apply button -->
+                    <div class="btn-container">
+                        <button type="button" class="apply-btn">Apply Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="page-footer">
+            <div class="text-center">
+                <p class="font-bold text-base">Tech Careers</p>
+                <p>Helping developers find their dream jobs.</p>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Browse Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Frontend Developer</a></li>
+                <li><a href="#">Backend Developer</a></li>
+                <li><a href="#">Full Stack Developer</a></li>
+                <li><a href="#">UI/UX Designer</a></li>
+                <li><a href="#">DevOps Engineer</a></li>
+            </ul>
+
+            <div class="flex gap-6 text-xl">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2026 Tech Careers. All Rights Reserved.</p>
+            <p>Made with ❤️ for Developers.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans : "Poppins", sans-serif;
+}
+
+body {
+    @apply bg-slate-50 text-xs;
+}
+
+header {
+    @apply sticky top-0 z-50;
+}
+
+.page-heading {
+    @apply text-center py-1 bg-purple-700 text-white;  
+}
+
+.page-heading h2 {
+    @apply text-2xl font-bold;
+}
+
+.page-heading p {
+    @apply font-bold;
+}
+
+.search-section {
+   @apply flex items-center justify-between px-8 py-1 text-purple-700 max-w-6xl mx-auto;
+}
+
+.input-section {
+    @apply flex items-center;
+}
+
+.input-section input {
+    @apply bg-white focus:outline-none p-2 rounded-md rounded-r-none;
+}
+
+.input-section i {
+    @apply bg-white text-base py-1 px-1 rounded-md rounded-l-none;
+}
+
+.search-section select {
+    @apply focus:outline-none font-bold;
+}
+
+.search-section select option {
+    @apply font-bold;
+}
+
+.filter-section-mobile {
+    @apply flex gap-3 p-2 md:hidden justify-center;
+}
+
+.filter-section-mobile span {
+    @apply font-bold bg-slate-100 text-purple-700 p-2 rounded-full shadow-lg cursor-pointer hover:-translate-y-1 transition-all duration-200 ease-in-out;
+}
+
+.filter-section {
+    @apply hidden md:flex gap-3 p-2;
+}
+
+.filter-section span {
+    @apply font-bold bg-slate-100 text-purple-700 p-2 rounded-full shadow-lg cursor-pointer hover:-translate-y-1 transition-all duration-200 ease-in-out;
+}
+
+.jobs {
+    @apply my-5;
+}
+
+.job-card-container {
+    @apply w-[90%] max-w-6xl mx-auto grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mb-10;
+}
+
+.job-card {
+    @apply bg-white flex flex-col px-5 pt-3 pb-2 justify-between rounded-2xl shadow-2xl text-slate-600 h-100 hover:-translate-y-2 transition-all duration-300 ease-in-out;
+}
+
+.company {
+    @apply font-bold text-xl text-center text-purple-700;
+}
+
+.role {
+    @apply font-bold text-base;
+}
+
+.job-details-list {
+    @apply flex flex-col gap-1;
+}
+
+.skills {
+    @apply flex flex-wrap items-start gap-2;
+}
+
+.skills span {
+    @apply bg-slate-100 p-2 rounded-full text-purple-700 font-bold shadow-sm;
+}
+
+.apply-btn {
+    @apply p-1 w-full text-lg font-bold bg-purple-700 text-white rounded-md cursor-pointer hover:-translate-y-1 transition-all duration-300 ease-in-out mb-2;
+}
+
+footer {
+    @apply bg-slate-600 text-white pt-5 pb-2 flex flex-col gap-10;
+}
+
+.page-footer {
+    @apply flex flex-col gap-4 items-center lg:lg:flex-row lg:gap-0 lg:justify-between lg:px-4;
+}
+
+.page-footer ul {
+    @apply text-center flex flex-col gap-1;
+}
+
+.copyright {
+    @apply flex flex-col items-center lg:flex-row lg:justify-around lg:items-center;
+}
