@@ -18,7 +18,8 @@
     "day12": "npx @tailwindcss/cli -i ./Day-12-Responsive-Team-Section/src/input.css -o ./Day-12-Responsive-Team-Section/src/output.css --watch",
     "day13": "npx @tailwindcss/cli -i ./Day-13-Responsive-Blog-Section/src/input.css -o ./Day-13-Responsive-Blog-Section/src/output.css --watch",
     "day14": "tailwindcss -i ./Day-14-Responsive-Ecommerce-Product-Page/src/input.css -o ./Day-14-Responsive-Ecommerce-Product-Page/src/output.css --watch",
-    "day15": "tailwindcss -i ./Day-15-Responsive-Job-Listings-Page/src/input.css -o ./Day-15-Responsive-Job-Listings-Page/src/output.css --watch"
+    "day15": "tailwindcss -i ./Day-15-Responsive-Job-Listings-Page/src/input.css -o ./Day-15-Responsive-Job-Listings-Page/src/output.css --watch",
+    "day16": "tailwindcss -i ./Day-16-Responsive-Services-Section/src/input.css -o ./Day-16-Responsive-Services-Section/src/output.css --watch"
   },
   "repository": {
     "type": "git",
