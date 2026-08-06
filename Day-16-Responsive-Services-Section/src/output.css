@@ -636,13 +636,19 @@ header {
   font-weight: var(--font-weight-bold);
   color: var(--color-orange-500);
 }
-.tech-list {
+.tech {
   display: flex;
-  flex-direction: column;
-  font-size: var(--text-xs);
-  line-height: var(--tw-leading, var(--text-xs--line-height));
+  flex-wrap: wrap;
+  gap: var(--spacing);
+}
+.tech span {
+  border-radius: calc(infinity * 1px);
+  background-color: var(--color-slate-200);
+  padding-inline: calc(var(--spacing) * 2);
+  padding-block: var(--spacing);
   --tw-font-weight: var(--font-weight-bold);
   font-weight: var(--font-weight-bold);
+  color: var(--color-slate-700);
 }
 .learn-more-btn {
   width: 100%;

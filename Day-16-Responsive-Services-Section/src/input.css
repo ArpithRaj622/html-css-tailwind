@@ -41,8 +41,12 @@ header {
     @apply font-bold text-xl text-orange-500;
 }
 
-.tech-list {
-    @apply flex flex-col font-bold text-xs;
+.tech {
+    @apply flex flex-wrap gap-1;
+}
+
+.tech span {
+    @apply bg-slate-200 font-bold text-slate-700 px-2 py-1 rounded-full;
 }
 
 .learn-more-btn {
