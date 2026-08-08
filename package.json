@@ -20,7 +20,8 @@
     "day14": "tailwindcss -i ./Day-14-Responsive-Ecommerce-Product-Page/src/input.css -o ./Day-14-Responsive-Ecommerce-Product-Page/src/output.css --watch",
     "day15": "tailwindcss -i ./Day-15-Responsive-Job-Listings-Page/src/input.css -o ./Day-15-Responsive-Job-Listings-Page/src/output.css --watch",
     "day16": "tailwindcss -i ./Day-16-Responsive-Services-Section/src/input.css -o ./Day-16-Responsive-Services-Section/src/output.css --watch",
-    "day17": "tailwindcss -i ./Day-17-Responsive-Admin-Analytics-Page/src/input.css -o ./Day-17-Responsive-Admin-Analytics-Page/src/output.css --watch"
+    "day17": "tailwindcss -i ./Day-17-Responsive-Admin-Analytics-Page/src/input.css -o ./Day-17-Responsive-Admin-Analytics-Page/src/output.css --watch",
+    "day18": "tailwindcss -i ./Day-18-Responsive-Checkout-Page/src/input.css -o ./Day-18-Responsive-Checkout-Page/src/output.css --watch"
   },
   "repository": {
     "type": "git",
