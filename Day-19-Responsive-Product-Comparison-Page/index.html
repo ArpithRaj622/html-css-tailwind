@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Responsive Product Comparison</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>Product Comparison</h2>
+            <p>Compare products and choose the right one</p>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products" class="container">
+            <div>
+                <h3>Products</h3>
+            </div>
+
+            <div class="card-container">
+                <!-- card 1 -->
+                <div class="card">
+                    <!-- image -->
+                    <div>
+                        <img src="./images/loq.jpg" alt="lenovo loq image">
+                    </div>
+
+                    <!-- product name & price -->
+                    <div>
+                        <p class="product-name">Lenovo LOQ</p>
+                        <p class="product-price">₹1,10,000</p>
+                    </div>
+
+                    <!-- star ratings -->
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- card 2 -->
+                <div class="card">
+                    <!-- image -->
+                    <div>
+                        <img src="./images/tuf.webp" alt="asus tuf image">
+                    </div>
+
+                    <!-- product name & price -->
+                    <div>
+                        <p class="product-name">Asus TUF</p>
+                        <p class="product-price">₹1,05,000</p>
+                    </div>
+
+                    <!-- star ratings -->
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card">
+                    <!-- image -->
+                    <div>
+                        <img src="./images/victus.webp" alt="hp victus image">
+                    </div>
+
+                    <!-- product name & price -->
+                    <div>
+                        <p class="product-name">HP Victus</p>
+                        <p class="product-price">₹98,000</p>
+                    </div>
+
+                    <!-- star ratings -->
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparisonTable" class="container">
+            <div>
+                <h3>Comparison Table</h3>    
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Lenovo LOQ</th>
+                        <th>Asus TUF</th>
+                        <th>HP Victus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Processor</th>
+                        <td>Core i7</td>
+                        <td>Ryzen 7</td>
+                        <td>Core i5</td>
+                    </tr>
+                    <tr>
+                        <th>GPU</th>
+                        <td>RTX 4060</td>
+                        <td>RTX 4060</td>
+                        <td>RTX 4050</td>
+                    </tr>
+                    <tr>
+                        <th>RAM</th>
+                        <td>16GB</td>
+                        <td>16GB</td>
+                        <td>16GB</td>
+                    </tr>
+                    <tr>
+                        <th>Storage</th>
+                        <td>1TB SSD</td>
+                        <td>1TB SSD</td>
+                        <td>512GB SSD</td>
+                    </tr>
+                    <tr>
+                        <th>Display</th>
+                        <td>144Hz</td>
+                        <td>144Hz</td>
+                        <td>144Hz</td>
+                    </tr>
+                    <tr>
+                        <th>Warranty</th>
+                        <td>1 Year</td>
+                        <td>1 Year</td>
+                        <td>1 Year</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="yourChoice" class="container">
+            <div>
+                <h3>Your Choice</h3>
+            </div>
+            <div class="btn-container">
+                <button>Lenovo LOQ</button>
+                <button>Asus TUF</button>
+                <button>HP Victus</button>
+            </div>
+            <div>
+                <a href="#">View Product</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
