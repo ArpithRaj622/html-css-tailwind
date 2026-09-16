@@ -22,7 +22,8 @@
     "day16": "tailwindcss -i ./Day-16-Responsive-Services-Section/src/input.css -o ./Day-16-Responsive-Services-Section/src/output.css --watch",
     "day17": "tailwindcss -i ./Day-17-Responsive-Admin-Analytics-Page/src/input.css -o ./Day-17-Responsive-Admin-Analytics-Page/src/output.css --watch",
     "day18": "tailwindcss -i ./Day-18-Responsive-Checkout-Page/src/input.css -o ./Day-18-Responsive-Checkout-Page/src/output.css --watch",
-    "day19": "tailwindcss -i ./Day-19-Responsive-Product-Comparison-Page/src/input.css -o ./Day-19-Responsive-Product-Comparison-Page/src/output.css --watch"
+    "day19": "tailwindcss -i ./Day-19-Responsive-Product-Comparison-Page/src/input.css -o ./Day-19-Responsive-Product-Comparison-Page/src/output.css --watch",
+    "day20": "tailwindcss -i ./Day-20-Tailwind-Glassmorphism/src/input.css -o ./Day-20-Tailwind-Glassmorphism/src/output.css --watch"
   },
   "repository": {
     "type": "git",

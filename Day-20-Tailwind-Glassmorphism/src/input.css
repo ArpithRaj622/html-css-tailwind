@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+html,body {
+    @apply m-0;
+}
+
+.page {
+    @apply min-h-screen
+    flex
+    flex-wrap
+    items-center
+    justify-center
+    gap-5
+    bg-[url('../images/bgImage.png')]
+    bg-cover
+    bg-center
+    bg-no-repeat
+}
+
+.card {
+    @apply p-5 
+    max-w-sm
+    bg-linear-to-br
+    from-indigo-900/30
+    via-indigo-900/20
+    to-indigo-900/10
+    text-white
+    rounded-2xl
+    border
+    border-white/30
+    backdrop-blur-xs
+    shadow-2xl;
+}
+
+.card2 {
+    @apply p-5 
+    max-w-sm
+    bg-linear-to-br
+    from-blue-900/35
+    via-blue-900/30
+    to-blue-900/15
+    text-white
+    rounded-2xl
+    border
+    border-white/30
+    backdrop-blur-xs
+    shadow-2xl
+    cursor-pointer
+}
